@@ -29,11 +29,11 @@
 	</dependencies>
 
 	<distributionManagement>
-		 <Snapshot Repository>
+		 <Snapshot_Repository>
 		    <id>nexus</id>
 		    <name>Snapshot</name>
 		    <url>http://3.12.198.85:8081/repository/Snapshot/</url>
-		 </Snapshot Repository>
+		 </Snapshot_Repository>
 
 		<Release Repository>
 		    <id>nexus</id>
