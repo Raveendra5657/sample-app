@@ -2,7 +2,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>in.mpcechno</groupId>
-	<artifactId>myapp_1</artifactId>
+	<artifactId>myapp1</artifactId>
 	<packaging>war</packaging>
 	<version>1.0.21-Snapshot</version>
 	<name>my-app</name>
@@ -29,11 +29,11 @@
 	</dependencies>
 
 	<distributionManagement>
-		 <Snapshot_Repository>
+		 <Snapshot.Repository>
 		    <id>nexus</id>
 		    <name>Snapshot</name>
 		    <url>http://3.12.198.85:8081/repository/Snapshot/</url>
-		 </Snapshot_Repository>
+		 </Snapshot.Repository>
 
 		<Release Repository>
 		    <id>nexus</id>
