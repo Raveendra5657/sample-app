@@ -35,11 +35,11 @@
 		    <url>http://3.12.198.85:8081/repository/Snapshot/</url>
 		 </snapshotRepository>
 
-		<repository>
+		<ReleaseRepository>
 		    <id>nexus</id>
 		    <name>Releases</name>
 		    <url>http://3.12.198.85:8081/repository/Release/</url>
-		</repository>
+		</ReleaseRepository>
   	</distributionManagement>
 
 
