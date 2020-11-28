@@ -29,17 +29,17 @@
 	</dependencies>
 
 	<distributionManagement>
-		 <SnapshotRepository>
+		 <snapshotRepository>
 		    <id>nexus</id>
-		    <name>Snapshot</name>
+		    <name>Internal Snapshot Releases</name>
 		    <url>http://3.12.198.85:8081/repository/Snapshot/</url>
-		 </SnapshotRepository>
+		 </snapshotRepository>
 
-		<Release Repository>
+		<repository>
 		    <id>nexus</id>
-		    <name>Releases</name>
+		    <name>Internal Releases</name>
 		    <url>http://3.12.198.85:8081/repository/Release/</url>
-		</Release Repository>
+		</repository>
   	</distributionManagement>
 
 
